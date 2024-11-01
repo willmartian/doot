@@ -2,9 +2,12 @@
 name = "doot"
 description = "TUI todo manager"
 version = "0.1.0"
+authors = ["Will Martin"]
 edition = "2021"
 keywords = ["cli", "todo", "todos", "tui"]
 categories = ["command-line-utilities", "development-tools", "text-editors"]
+license = "GPL-3.0"
+repository = "https://github.com/willmartian/doot"
 
 [dependencies]
 clap = { version = "4.5.20", features = ["derive"] }
