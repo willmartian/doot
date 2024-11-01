@@ -1,0 +1,18 @@
+[package]
+name = "doot"
+description = "TUI todo manager"
+version = "0.1.0"
+edition = "2021"
+keywords = ["cli", "todo", "todos", "tui"]
+categories = ["command-line-utilities", "development-tools", "text-editors"]
+
+[dependencies]
+clap = { version = "4.5.20", features = ["derive"] }
+crossterm = "0.28.1"
+directories = "5.0.1"
+grep = "0.3.2"
+ignore = "0.4.23"
+notify = "7.0.0"
+ratatui = "0.29.0"
+todo-txt = "3.1.0"
+walkdir = "2.5.0"
